@@ -1,6 +1,6 @@
-han = open('mbox-short.txt')
+fhand = open('mbox-short.txt')
 
-for line in han:
+for line in fhand:
     line = line.rstrip()
     print('Line:', line)
     wds = line.split()
